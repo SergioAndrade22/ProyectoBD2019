@@ -49,7 +49,7 @@ public class LogIn extends JFrame{
 		JButton buttonAdm = new JButton("Admin LogIn");
 		buttonAdm.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				JFrame nframe = new MainWindow();
+				JFrame nframe = new AdminWindow();
 				nframe.setVisible(true);
 				frame.dispose();
 			}
